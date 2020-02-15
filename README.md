@@ -7,3 +7,13 @@ The basic rule before writing code:
 2. reduce while loop inside another one, the complex will be $O(n^2)$
 3. for number related operations, avoid converting to string then split it to
 to array, it's low efficiency. Try to use mod operation or other bit operation.
+
+
+## Easy
+TrailingZeros
+
+## Medium
+DigitCounts
+
+## Other
+Heap Sort
