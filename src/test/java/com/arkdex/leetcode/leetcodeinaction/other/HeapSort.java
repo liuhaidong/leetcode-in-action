@@ -2,6 +2,8 @@ package com.arkdex.leetcode.leetcodeinaction.other;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 public class HeapSort {
     //构建最小堆
     public static void MakeMinHeap(int a[], int n){
@@ -37,7 +39,8 @@ public class HeapSort {
     public static void MinHeap_Sort(int a[],int n){
         int temp = 0;
         MakeMinHeap(a,n);
-
+        System.out.println("after make");
+        System.out.println(Arrays.toString(a));
         for(int i=n-1;i>0;i--){
             temp = a[0];
             a[0] = a[i];
@@ -48,7 +51,8 @@ public class HeapSort {
 
     @Test
     void testSort(){
-        int[] a = {3,5,1,8};
-        MinHeap_Sort(a,2);
+        int[] a = {3,5,1,8,9,2};
+        MinHeap_Sort(a,6);
+        System.out.println(Arrays.toString(a));
     }
 }

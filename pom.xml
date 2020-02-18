@@ -4,9 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.arkdex.leetcode</groupId>
-	<artifactId>leet-code-in-action</artifactId>
+	<artifactId>lint-code-in-action</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>leet-code-in-action</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
